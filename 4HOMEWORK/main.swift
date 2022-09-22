@@ -70,65 +70,17 @@ var crat4 = ""
 var crat5 = ""
 
 for number in 0...1000{
-    if number % 2 == 0 && number % 3 == 0 && number % 4 == 0 && number % 5 == 0 {
-        crat2 += ("\(number), ")
-        crat3 += ("\(number), ")
-        crat4 += ("\(number), ")
-        crat5 += ("\(number), ")
-    }else if number % 2 == 0 && number % 3 == 0 && number % 4 == 0{
-        crat2 += ("\(number), ")
-        crat3 += ("\(number), ")
-        crat4 += ("\(number), ")
-
-    }else if number % 2 == 0 && number % 3 == 0 && number % 5 == 0{
-        crat2 += ("\(number), ")
-        crat3 += ("\(number), ")
-        crat5 += ("\(number), ")
-
-    }else if  number % 3 == 0 && number % 4 == 0 && number % 5 == 0{
-        crat3 += ("\(number), ")
-        crat4 += ("\(number), ")
-        crat5 += ("\(number), ")
-
-    }else if  number % 2 == 0 && number % 4 == 0 && number % 5 == 0{
-        crat2 += ("\(number), ")
-        crat4 += ("\(number), ")
-        crat5 += ("\(number), ")
-
-    }else if number % 2 == 0 && number % 3 == 0{
-        crat2 += ("\(number), ")
-        crat3 += ("\(number), ")
-
-    }else if number % 3 == 0 && number % 4 == 0{
-        crat3 += ("\(number), ")
-        crat4 += ("\(number), ")
-
-    }else if number % 3 == 0 && number % 5 == 0{
-        crat3 += ("\(number), ")
-        crat5 += ("\(number), ")
-
-    }else if number % 2 == 0 && number % 5 == 0{
-        crat2 += ("\(number), ")
-        crat5 += ("\(number), ")
-
-    }else if number % 4 == 0 && number % 5 == 0 {
-        crat4 += ("\(number), ")
-        crat5 += ("\(number), ")
-
-    }else if number % 2 == 0 && number % 4 == 0{
-        crat2 += ("\(number), ")
-        crat4 += ("\(number), ")
-
-    }else if number % 2 == 0{
+    
+      if number % 2 == 0{
         crat2 +=  ("\(number), ")
 
-    }else if number % 3 == 0 {
+      }; if number % 3 == 0 {
         crat3 +=  ("\(number), ")
 
-    }else if number % 4 == 0 {
+      }; if number % 4 == 0 {
         crat4 += ("\(number), ")
 
-    }else if  number % 5 == 0{
+      }; if  number % 5 == 0{
         crat5 +=  ("\(number), ")
     }
 }
@@ -483,3 +435,4 @@ calCulator(wish: String(wish))
 //let move = readLine()!
 //
 //sinCos(move: String(move), katPril: Float(katPril) ?? 0, katProtiv: Float(katProtiv) ?? 0, gipotenuza: Float(gipotenuza) ?? 0)
+
