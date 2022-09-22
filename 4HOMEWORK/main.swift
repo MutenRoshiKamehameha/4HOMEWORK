@@ -445,3 +445,5 @@ print(stroka)
 //
 //sinCos(move: String(move), katPril: Float(katPril) ?? 0, katProtiv: Float(katProtiv) ?? 0, gipotenuza: Float(gipotenuza) ?? 0)
 //
+//
+//
