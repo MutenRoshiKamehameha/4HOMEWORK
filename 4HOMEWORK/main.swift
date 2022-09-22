@@ -4,10 +4,8 @@
 ////
 ////  Created by Байгелди Акылбек уулу on 19/9/22.
 ////
-//
-//import Foundation
-//
-//
+import Foundation
+
 //Спички
 let zero = "6"
 let one = "2"
