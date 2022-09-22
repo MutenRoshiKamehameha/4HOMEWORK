@@ -384,6 +384,15 @@ calCulator(wish: String(wish))
 
 
 
+//Доп про имена
+
+let strokA = ""
+let characters = ["TylerDurdon","Marks","Lana","Luffy","Adolf","Rhoades","Grifit","SonGoku", "JordanBelfort", "Sabo","RobertPolson","Sanji", "Gats","Oppenheimer","Ulianov", "UsamaBenTenison"]
+for names in characters {
+    stroka += (" \(names) ")
+    stroka += ("- \(names.count) букв,")
+}
+print(stroka)
 
 //var sinCount:Float = 0
 //var cosCount:Float = 0
